@@ -4,8 +4,8 @@ block content
         .namecard-hello
             p.namecard-greeting Welcome, #{name}!
             form.namecard-exit(action='/goodbye' method='POST')
-            button(type='submit')
-                img(src='/static/img/close.svg')
+                button(type='submit')
+                    img(src='/static/img/close.svg')
     if hint
         section.flashcards
             .card.card-question
